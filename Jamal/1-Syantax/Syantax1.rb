@@ -15,8 +15,10 @@ print <<`JML`                 # # perintah yang sama untuk membuat string
 	echo hi waqid
 JML
 
-print <<"hallo", <<"hay"  # you can stack them
+print <<"hallo", <<"hay" , <<"zero" # membuat perintah baru
 	saya bilang hallo
 hallo
 	saya bilang hay
 hay
+	saya suka angka zero
+zero
