@@ -43,11 +43,3 @@ cust3=Customer.new("3", "fikri", "kos pak subari, tegal catak")
 cust1.display_details()
 cust2.display_details()
 cust3.display_details()
-
-puts "masukan angka : "
-a=gets.to_i
-if a % 2 !=0
-	puts "maka ganjil"
-else
-	puts "maka bukan ganjil"
-end	
