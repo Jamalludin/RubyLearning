@@ -23,3 +23,14 @@ for i in 0..100
    end
    puts "Ini perulangan dengan for dengan tambahan break ke. #{i}"
 end
+#perulangan dengan for dengan tambahan syntax next
+for i in 0..7
+   if i < 5 then
+      next
+   end
+   puts "Ini perulangan dengan for dengan tambahan next ke. #{i}"
+end
+=begin
+perulangan dengan syntax next yaitu kondisi dimana jika "i<5" maka
+perulangan akan dimuali di angka 5.
+=end
