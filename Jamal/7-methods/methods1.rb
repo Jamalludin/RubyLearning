@@ -14,8 +14,9 @@ def coba2
    a = 200
    m = 300
    l = 400
-   hasil =j+a+m+l
-return j , a , m , l , hasil
+   #hasil =j+a+m+l
+   puts"hasil penjumlahan : #{j+a+m+l}"
+return j , a , m , l
 end
 panggil = coba2
 puts panggil
