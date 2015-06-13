@@ -35,12 +35,15 @@ perulangan dengan syntax next yaitu kondisi dimana jika "i<5" maka
 perulangan akan dimuali di angka 5.
 =end
 #perulangan dengan for dengan tambahan syntax redo
+=begin
+
 for i in 0..5
    if i < 2 then
       puts "Infiniti Loops #{i}"
       redo
    end
 end
+=end
 =begin
 jika di exe maka akan melakukan perulangan
 tak hingga dan perulangan di mulai < 2
