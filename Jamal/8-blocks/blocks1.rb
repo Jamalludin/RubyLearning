@@ -13,3 +13,23 @@ test {puts "2 (dua)"}
 	fungsi yield untuk memanggil
 	fungsi test {puts "2 (dua"}
 =end
+BEGIN { 
+ 
+  puts "Di bawahku ada "
+} 
+
+=begin
+	
+jika menggunakan fungsi BEGIN {}, dan
+END {}, maka setiap fungsi akan di panggil 
+diantara fungsi BEGIN {} dan fungsi END{}
+
+	
+=end
+
+END { 
+   
+  puts "Di atasku ada"
+}
+  
+puts "ayam"
