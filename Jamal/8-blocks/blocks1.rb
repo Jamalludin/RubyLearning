@@ -7,6 +7,8 @@ def test
    yield
    puts "abis angka 1 angka berapa ?"
    yield
+puts "duapuluh"
+yield
 end
 test {puts "2 (dua)"}
 =begin
