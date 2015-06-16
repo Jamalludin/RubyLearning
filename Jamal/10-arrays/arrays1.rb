@@ -10,5 +10,6 @@ coba2 = Array.new(3, "jam")
 puts "memanggil kata jam sebanyak 3 x : #{coba2}"
 
 #contoh array 3
-digits = Array(0..7)
-puts "menampilkan digits yang terpasang di array #{digits}"
+digits = Array(0..1000)
+num = digits.at(700)
+puts "menampilkan digits yang telah di tentukan  #{num}"
