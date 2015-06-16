@@ -6,3 +6,5 @@ puts "ukuran array #{coba.size}"  # This returns 10
 puts "panjang array #{coba.length}" # This also returns 10
 
 #contoh array 2
+coba2 = Array.new(3, "jam")
+puts "memanggil kata jam sebanyak 3 x : #{coba2}"
