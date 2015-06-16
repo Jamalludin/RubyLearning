@@ -8,4 +8,6 @@ puts "hasil rata-ratanya adalah #{ (j + a + m)/3 }."
 puts "hasil pengurangan dari nila a dan m adalah #{a - m}."
 
 # contoh string kedua dalam ruby 
-
+jam = String.new("This is test by jamalludin")
+cetak = jam.downcase
+puts "#{cetak}"
